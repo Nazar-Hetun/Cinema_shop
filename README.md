@@ -12,7 +12,7 @@ Hibernate, Spring(Core, Web, Security), MySQL, Tomcat, JSON.
 For ```User``` access you can register (min 8 symbols for password, email must contain @), or use ```email``` - user@i.ua and ```password``` - user1234.<br />
 For ```Admin``` access  use ```email``` - admin@i.ua and ```password``` - admin123.<br />
 
-####All endpoints of my application (HTTP Method - url - permission):
+### All endpoints of my application (HTTP Method - url - permission):
 ```
 POST: /register - all
 GET: /cinema-halls - user/admin
