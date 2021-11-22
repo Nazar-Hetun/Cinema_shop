@@ -1,5 +1,5 @@
 # Cinema Shop
-This project shows the work of a cinema store, where users have a shopping cart and can add tickets to it and place an order.
+This project represents the work of a cinema store, where users have a shopping cart and can add tickets to it and place an order.
 Admin can add new cinema halls, movies, do CRUD operations with movie sessions.
 ### Tecnologies
 Hibernate, Spring(Core, Web, Security), MySQL, Tomcat, JSON. 
