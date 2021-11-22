@@ -1,5 +1,6 @@
 # Cinema Shop
-This application shows my skills in Java, Spring, REST, SOLID principles, CRUD.  
+This project shows the work of a cinema store, where users have a shopping cart and can add tickets to it and place an order.
+Admin can add new cinema halls, movies, do CRUD operations with movie sessions.
 ### Tecnologies
 Hibernate, Spring(Core, Web, Security), MySQL, Tomcat, JSON. 
 ## Let's install some programs:
@@ -14,19 +15,41 @@ For ```Admin``` access  use ```email``` - admin@i.ua and ```password``` - admin1
 
 ### All endpoints of my application (HTTP Method - url - permission):
 ```
-POST: /register - all
+-Register new User.
+POST: /register - all 
+
+-Get all cinema halls.
 GET: /cinema-halls - user/admin
+-Add new cinema hall.
 POST: /cinema-halls - admin
+
+-Get all movies.
 GET: /movies - user/admin
+-Add new movie.
 POST: /movies - admin
+
+-Get all avaiable movie sessions for selected time.
 GET: /movie-sessions/available - user/admin
+-Get movie session by id.
 GET: /movie-sessions/{id} - user/admin
+-Add new movie session.
 POST: /movie-sessions - admin
+-Update movie session.
 PUT: /movie-sessions/{id} - admin
+-Delete movie session.
 DELETE: /movie-sessions/{id} - admin
+
+-Show all User orders.
 GET: /orders - user
+-Complete order.
 POST: /orders/complete - user
+
+-Add movie session to cart.
 PUT: /shopping-carts/movie-sessions - user
+-Get User shopping cart.
 GET: /shopping-carts/by-user - user
+
+-Get User by his email.
 GET: /users/by-email - admin
+
 ``` 
